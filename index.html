@@ -13,11 +13,11 @@
         <img class="logo" src="./img/omnifood-logo.png" alt="Ominfood Logo">
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">How It Workds</a></li>
-                <li><a class="main-nav-link" href="#">Meals</a></li>
-                <li><a class="main-nav-link" href="#">Testimonials</a></li>
-                <li><a class="main-nav-link" href="#">Pricing</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Try For Free</a></li>
+                <li><a class="main-nav-link" href="#how">How It Workds</a></li>
+                <li><a class="main-nav-link" href="#meals">Meals</a></li>
+                <li><a class="main-nav-link" href="#testimonial">Testimonials</a></li>
+                <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="main-nav-link nav-cta" href="#cta">Try For Free</a></li>
             </ul>
         </nav>
         <button class="btn-mobile-nav">
@@ -35,8 +35,8 @@
                     <p class="hero-description">
                         The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
                     </p>
-                    <a href="#" class="btn btn--full btn-right-sm">Start Eating Well</a>
-                    <a href="#" class="btn btn--outline">Learn More &darr;</a>
+                    <a href="#cta" class="btn btn--full btn-right-sm">Start Eating Well</a>
+                    <a href="#how" class="btn btn--outline">Learn More &darr;</a>
 
                     <div class="delivered-meals">
                         <div class="delivered-img">
@@ -72,7 +72,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-how">
+        <section class="section-how" id="how">
             <div class="container">
                 <span class="sub-heading">How It Work!</span>
                 <h2 class="heading-secondary">Your daily dose of health in 3 simple steps</h2>
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-meals">
+        <section class="section-meals" id="meals">
             <div class="container text-center">
                 <span class="sub-heading">Meals</span>
                 <h2 class="heading-secondary">
@@ -232,7 +232,7 @@
                 <a href="#" class="link">See All Recipes &rAarr;</a>
             </div>
         </section>
-        <section class="section-testimonial grid grid--2--cols">
+        <section class="section-testimonial grid grid--2--cols" id="testimonial">
             <div class="tesimonical-container">
                 <span class="sub-heading">Testimonials</span>
                 <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -314,7 +314,7 @@
                 </figure>
             </div>
         </section>
-        <section class="section-pricing">
+        <section class="section-pricing" id="pricing">
             <div class="container">
                 <span class="sub-heading">Pricing</span>
                 <h2 class="heading-secondary">Eating Well Without Breaking The Bank</h2>
@@ -424,7 +424,7 @@
 
             </div>
         </section>
-        <section class="section-cta">
+        <section class="section-cta" id="cta">
             <div class="container">
                 <div class="cta">
                     <div class="cta-text-box">
@@ -572,6 +572,10 @@
     <!-- Ionic Icon Link -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Polyfill library -->
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    
     <!-- custom js file-->
     <script src="./javascript/script.js"></script>
 </body>
